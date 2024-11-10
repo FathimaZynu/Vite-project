@@ -1,0 +1,23 @@
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.title{
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    border-left: 5px solid rgb(204, 195, 195);
+    border-radius: 5px;
+}
+.body{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgb(48, 46, 46);
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

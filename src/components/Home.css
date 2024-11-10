@@ -1,0 +1,35 @@
+body .container{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.product-card {
+    background: rgb(238, 197, 238);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.product-card h2 {
+    color: rgb(32, 32, 131);
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.product-card p {
+    margin: 7px 0;
+}
+
+
